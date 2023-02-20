@@ -20,42 +20,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BeachBall
-  m_Shader: {fileID: -6465566751694194690, guid: afce42bba12f48d48a23d3b14276b44b,
-    type: 3}
-  m_ValidKeywords: []
+  m_Name: Wall_B_Yellow
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ValidKeywords:
+  - _METALLICSPECGLOSSMAP
+  - _NORMALMAP
+  - _OCCLUSIONMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_2BB4CE0A:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_669A5A8D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_a5030bb5ec5647ae93b5fd549593284c:
-        m_Texture: {fileID: 2800000, guid: 926bd40e59068fa429f6b2d28f559d85, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_ae37dbc90e4546138d373fb8f517f0d3:
-        m_Texture: {fileID: 2800000, guid: 926bd40e59068fa429f6b2d28f559d85, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 926bd40e59068fa429f6b2d28f559d85, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1fe9a0834b32b074282295da7935ec4d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 89c5934d2d85a454ca5eb35766f709e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -75,30 +62,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 926bd40e59068fa429f6b2d28f559d85, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1fe9a0834b32b074282295da7935ec4d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 855c776768dcb554799ffebb5eec1689, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 98a5317a5b217cb44b96e0eb9ef336e5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_8faec0d3e30646ada304a835a10e4ec7_Texture_1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_eee18a146da9415984709861d48953c6_Out_0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -116,8 +95,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_B527BCC5: 0.5
-    - Vector1_CCFC6136: 32
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -132,10 +109,9 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Metallic: 0.533
+    - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -146,14 +122,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_48A70A3D: {r: 1, g: 1, b: 1, a: 0}
-    - Color_537723E0: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
-    - Color_AD1C6FDD: {r: 1, g: 1, b: 1, a: 0}
-    - Color_B5CEF074: {r: 0.5, g: 0.5, b: 0.5, a: 0}
-    - Color_F1D4F974: {r: 0.48490566, g: 0.6721801, b: 1, a: 1}
-    - Vector3_5C9CB8FC: {r: -0.47, g: 0.5, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.9921568, g: 0.95686275, b: 0.5882353, a: 1}
+    - _Color: {r: 0.9921568, g: 0.95686275, b: 0.5882353, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
