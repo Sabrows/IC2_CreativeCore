@@ -5005,14 +5005,13 @@ GameObject:
   - component: {fileID: 998533012290813654}
   - component: {fileID: 998533012290813640}
   - component: {fileID: 998533012290813641}
-  - component: {fileID: 765835026}
   m_Layer: 0
   m_Name: VFX_Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &998533012290813654
 Transform:
   m_ObjectHideFlags: 0
@@ -5047,7 +5046,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 0
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -9810,22 +9809,6 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!114 &765835026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998533012290813655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6df394d05aeeb4a43b1185b7ce99c5d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggleKey: 32
-  igniteParticle: {fileID: 8878228331227211351}
-  extinguishParticle: {fileID: 8878228331227211351}
-  pointLight: {fileID: 998533012197829943}
 --- !u!1 &9160553795172349946
 GameObject:
   m_ObjectHideFlags: 0
