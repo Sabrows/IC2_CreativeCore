@@ -1,1 +1,1 @@
-# UnityLearn_CreativeCore
+Repository for working on the Unity ["Creative Core"](https://learn.unity.com/learn/pathway/creative-core) learning pathway as part of the second Independent Coursework module of the International Media and Computing master programme at the HTW Berlin. 
